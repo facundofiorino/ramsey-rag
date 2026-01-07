@@ -91,7 +91,7 @@ ollama --version
 source venv/bin/activate
 
 # Install RAG dependencies (if needed)
-pip install langchain-ollama langchain-chroma langchain-community sentence-transformers
+pip install langchain-ollama langchain-chroma langchain-huggingface
 
 # Pull Ollama models (if needed)
 ollama pull llama3:latest

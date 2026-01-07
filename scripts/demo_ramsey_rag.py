@@ -27,10 +27,10 @@ def demo_search():
 
     try:
         from langchain_chroma import Chroma
-        from langchain_community.embeddings import HuggingFaceEmbeddings
+        from langchain_huggingface import HuggingFaceEmbeddings
     except ImportError:
         print("❌ Missing dependencies")
-        print("Run: pip install langchain-chroma langchain-community sentence-transformers")
+        print("Run: pip install langchain-chroma langchain-huggingface")
         return
 
     embeddings = HuggingFaceEmbeddings(
@@ -81,7 +81,7 @@ def demo_search():
 def create_vectorstore():
     """Create vector store from corpus"""
     from langchain_text_splitters import RecursiveCharacterTextSplitter
-    from langchain_community.embeddings import HuggingFaceEmbeddings
+    from langchain_huggingface import HuggingFaceEmbeddings
     from langchain_chroma import Chroma
     from langchain_community.document_loaders import TextLoader
 

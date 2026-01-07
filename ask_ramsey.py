@@ -19,13 +19,13 @@ def ask_ramsey(question: str, model: str = "llama3:latest", num_sources: int = 4
     try:
         from langchain_ollama import OllamaLLM
         from langchain_chroma import Chroma
-        from langchain_community.embeddings import HuggingFaceEmbeddings
+        from langchain_huggingface import HuggingFaceEmbeddings
         from langchain.chains import RetrievalQA
         from langchain.prompts import PromptTemplate
     except ImportError as e:
         print(f"❌ Missing dependency: {e}")
         print("\nInstall with:")
-        print("  pip install langchain-ollama langchain-chroma langchain-community sentence-transformers")
+        print("  pip install langchain-ollama langchain-chroma langchain-huggingface")
         return None
 
     # Check vector store exists
