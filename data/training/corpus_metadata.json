@@ -1,0 +1,57 @@
+{
+  "corpus_name": "Frank Ramsey Philosophical Corpus",
+  "creation_date": "2025-12-12",
+  "total_documents": 8,
+  "total_words": 583862,
+  "total_characters": 3437299,
+  "total_chunks": 286,
+  "chunk_size": 2048,
+  "documents": [
+    {
+      "filename": "Frank Ramsey _ a sheer excess of powers -- Misak, Cheryl Jayne -- Impr_ 3, Oxford, United Kingdom, 2020 -- Oxford University Press, USA -- 9780198755357 -- b305d4f92bef056c43aa8a84e7226563 -- Anna\u2019s Archive.txt",
+      "words": 225555,
+      "characters": 1357041
+    },
+    {
+      "filename": "Karl Sabbagh - Shooting Star_ The Brief and Brilliant Life of Frank Ramsey (2013, Amazon) - libgen.li.txt",
+      "words": 25112,
+      "characters": 143854
+    },
+    {
+      "filename": "Theories -- Ramsey, Frank -- 0 -- 683f433d51c4ad68d760a73469e25be7 -- Anna\u2019s Archive.txt",
+      "words": 7558,
+      "characters": 40231
+    },
+    {
+      "filename": "[Episteme \u211616] Frank Plumpton Ramsey (auth.), Nicholas Rescher, Ulrich Majer (e - On Truth_ Original Manuscript Materials (1927\u20131929) from the Ramsey Collection at the University of Pittsburgh (1991, Springer) [10.1007_978-94- - libgen.li.txt",
+      "words": 63793,
+      "characters": 361733
+    },
+    {
+      "filename": "[History of Analytic Philosophy ] S. J. Methven (auth.) - Frank Ramsey and the Realistic Spirit (2015, Palgrave Macmillan) [10.1057_9781137351081] - libgen.li.txt",
+      "words": 119687,
+      "characters": 705972
+    },
+    {
+      "filename": "[Mind Association occasional series] Lillehammer Hallvard, Mellor D.H. (eds.) - Ramsey's legacy_ [this volume contains revised versions of ten of the thirteen original papers given and discussed at the Frank (2005, Oxford Unive - libgen.li.txt",
+      "words": 88564,
+      "characters": 529421
+    },
+    {
+      "filename": "general_propositions_final.txt",
+      "words": 8663,
+      "characters": 35538
+    },
+    {
+      "filename": "truth_and_success_final.txt",
+      "words": 44765,
+      "characters": 261742
+    }
+  ],
+  "recommended_use": [
+    "Fine-tuning language models on philosophical reasoning",
+    "Training models on Frank Ramsey's logical and philosophical style",
+    "Pre-training data for philosophy-focused LLMs",
+    "Question-answering systems about Ramsey's philosophy"
+  ]
+}

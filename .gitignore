@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data files (large)
+ramsey_data/*.pdf
+data/extracted/*.txt
+data/training/*.txt
+data/training/*.jsonl
+data/vectorstore/
+
+# Logs
+logs/*.log
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Debug
+debug_images/
+data/test_outputs/
+
+# Backup files
+*.bak
+*.backup
+
+# Keep directory structure but ignore contents
+!.gitkeep
